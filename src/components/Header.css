@@ -1,0 +1,65 @@
+.header {
+    background: linear-gradient(90deg, #007bff, #0056b3); /* Gradient for a modern look */
+    color: white;
+    padding: 1rem 2rem; /* Padding for spacing */
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between logo/title and navigation */
+    position: fixed; /* Stick to the top */
+    top: 0; /* Position at the top */
+    left: 0;
+    right: 0;
+    width: 100%; /* Ensure full width */
+    z-index: 1000; /* Ensure it stays on top of other content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase; /* Make it stand out */
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .header h1:hover {
+    color: #ffdd40; /* Highlight on hover */
+  }
+  
+  .header nav {
+    display: flex; /* Horizontal layout for navigation links */
+    gap: 1.5rem; /* Space between links */
+  }
+  
+  .header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase; /* Add a modern touch */
+    position: relative; /* For underline animation */
+    transition: color 0.3s ease;
+  }
+  
+  .header nav a:hover {
+    color: #ffdd40; /* Change color on hover */
+  }
+  
+  .header nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px; /* Place underline slightly below the text */
+    left: 50%; /* Center the underline */
+    width: 0;
+    height: 2px;
+    background: #ffdd40; /* Underline color */
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+  
+  .header nav a:hover::after {
+    width: 100%; /* Full width on hover */
+    left: 0;
+  }
+  
