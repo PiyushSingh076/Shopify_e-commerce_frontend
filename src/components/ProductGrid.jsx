@@ -23,7 +23,7 @@ const ProductGrid = ({ products, onProductClick }) => {
         <p>Explore the best deals and offers on our exclusive products.</p>
       </header>
 
-      {/* Search Input */}
+      
       <div className="search-bar">
         <input
           type="text"
@@ -53,7 +53,7 @@ const ProductGrid = ({ products, onProductClick }) => {
               <div className="product-info">
                 <h3 className="product-name">{product.name}</h3>
                 <p className="description">{product.shortDescription}</p>
-                <p className="product-price">${product.price}</p>
+                <p className="product-price">₹{product.price}</p>
               </div>
             </div>
           </div>

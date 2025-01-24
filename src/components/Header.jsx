@@ -6,9 +6,8 @@ function Header() {
       <h1>Shopify</h1>
       <nav>
         <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
         <a href="/cart">Cart</a>
+        <a href="/orders">My Orders</a>
       </nav>
     </header>
   );

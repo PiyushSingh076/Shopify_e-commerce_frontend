@@ -8,6 +8,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Cart from "./components/cart";
 import Advertisement from "./components/Advertisement";  // Import Advertisement component
+import BuyNow from "./components/BuyNow";
+import Orders from "./components/Orders";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -47,6 +49,8 @@ function App() {
             path="/cart"
             element={<Cart cart={cart} onProductClick={handleProductClick}/>}
           />
+          <Route path="/buynow/:id" element={<BuyNow />} />
+          <Route path="/orders" element={<Orders />} />
         </Routes>
       </div>
     </div>

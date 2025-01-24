@@ -1,11 +1,12 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { products } from "./data"; 
 import "./ProductDetails.css";
 
 const ProductDetails = ({ onBack }) => {
   const { id } = useParams(); 
   const product = products.find((p) => p.id === parseInt(id));
+  const navigate = useNavigate(); // Moved outside the function
 
   if (!product) {
     return <p>Product not found.</p>; 
@@ -18,6 +19,10 @@ const ProductDetails = ({ onBack }) => {
     alert(`${product.name} has been added to the cart!`);
   };
 
+  const handleBuyNow = (product) => {
+    navigate(`/buynow/${product.id}`); 
+  };
+
   return (
     <div className="product-details">
       <div className="details-header">
@@ -26,11 +31,11 @@ const ProductDetails = ({ onBack }) => {
         </button>
       </div>
       <div className="details-content">
-        <img className="product-image" src={product.image} alt={product.name} />
+        <img className="image" src={product.image} alt={product.name} />
         <div className="details-info">
           <h1 className="product-name">{product.name}</h1>
           <p className="product-description">{product.description}</p>
-          <p className="product-price">${product.price}</p>
+          <p className="product-price">₹{product.price}</p>
           <button
             onClick={() => handleAddToCart(product)}
             className="add-to-cart-button"
@@ -38,7 +43,7 @@ const ProductDetails = ({ onBack }) => {
             Add to Cart
           </button>
           <button
-            onClick={() => handleAddToCart(product)}
+            onClick={() => handleBuyNow(product)}
             className="add-to-cart-button"
           >
             Buy Now
