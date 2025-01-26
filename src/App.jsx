@@ -5,8 +5,7 @@ import ProductDetails from "./components/ProductDetails";
 import ProductGrid from "./components/ProductGrid";
 import { products } from "./components/data";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Cart from "./components/cart";
+import Cart from "./components/Cart";
 import Advertisement from "./components/Advertisement";  // Import Advertisement component
 import BuyNow from "./components/BuyNow";
 import Orders from "./components/Orders";
