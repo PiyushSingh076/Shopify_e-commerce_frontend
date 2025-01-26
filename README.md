@@ -36,7 +36,7 @@ This is a React-based frontend application for a Shopify e-commerce store, desig
    npm run dev
    ```
 
-2. Access the app in your web browser at http://localhost:3000`](https://shopify-e-commerce-frontend-dvsa.vercel.app/.
+2. Access the app in your web browser at https://shopify-e-commerce-frontend-dvsa.vercel.app/.
 
 ## Project Structure
 
