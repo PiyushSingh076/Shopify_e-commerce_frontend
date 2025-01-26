@@ -6,7 +6,7 @@ function Header() {
       <h1>Shopify</h1>
       <nav>
         <a href="/">Home</a>
-        <a href="/cart">Cart</a>
+        <a href="/cart">My Cart</a>
         <a href="/orders">My Orders</a>
       </nav>
     </header>

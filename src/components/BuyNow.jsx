@@ -30,7 +30,7 @@ const BuyNow = () => {
     localStorage.setItem("orders", JSON.stringify(orders));
 
     alert("Purchase successful!");
-    navigate("/orders"); // Redirect to Orders page
+    navigate("/orders"); 
   };
 
   if (!product) {
@@ -43,7 +43,7 @@ const BuyNow = () => {
       <div className="product-summary">
         <h2>{product.name}</h2>
         <img src={product.image} alt={product.name} />
-        <p>Price: ${product.price}</p>
+        <p>Price: ₹{product.price}</p>
       </div>
       <div className="buy-now-form">
         <label>
