@@ -6,24 +6,24 @@ import ProductGrid from "./components/ProductGrid";
 import { products } from "./components/data";
 import Header from "./components/Header";
 import Cart from "./components/Cart";
-import Advertisement from "./components/Advertisement";  // Import Advertisement component
+import Advertisement from "./components/Advertisement";  
 import BuyNow from "./components/BuyNow";
 import Orders from "./components/Orders";
 
 function App() {
   const [cart, setCart] = useState([]);
-  const navigate = useNavigate();  // Initialize useNavigate
+  const navigate = useNavigate();  
 
   const handleProductClick = (product) => {
-    navigate(`/product/${product.id}`);  // Navigate to product details
+    navigate(`/product/${product.id}`); 
   };
 
   const handleBack = () => {
-    navigate("/");  // Navigate back to product grid
+    navigate("/"); 
   };
 
   const handleAddToCart = (product) => {
-    setCart([...cart, product]);  // Add product to cart
+    setCart([...cart, product]);  
   };
 
   return (
@@ -35,8 +35,8 @@ function App() {
             path="/"
             element={
               <>
-                <Advertisement />  {/* Show the advertisement first */}
-                <ProductGrid products={products} onProductClick={handleProductClick} />  {/* Trending products */}
+                <Advertisement />  
+                <ProductGrid products={products} onProductClick={handleProductClick} />  
               </>
             }
           />
