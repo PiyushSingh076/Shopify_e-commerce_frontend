@@ -5,7 +5,7 @@ export const products = [
       image: "https://m.media-amazon.com/images/I/4133ecp7zKL._SX300_SY300_QL70_FMwebp_.jpg",
       description: "XYZ Brand, 6.5-inch AMOLED display, 128GB storage, 5G support.",
       shortDescription: "XYZ Brand, 6.5-inch AMOLED display, 128GB storage.",
-      price: "500",
+      price: "15000",
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ export const products = [
       image: "https://tse3.mm.bing.net/th?id=OIP.y6MPyepeDGuGjECUb_ztcQHaHa&w=474&h=474&c=7",
       description: "Lenovo, 15.6-inch FHD display, Intel i7, 16GB RAM, 512GB SSD.",
       shortDescription: "Lenovo, 15.6-inch FHD display, Intel i7.",
-      price: "1000",
+      price: "100000",
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ export const products = [
       image: "https://m.media-amazon.com/images/I/51l80KVua0L._AC_UY327_FMwebp_QL65_.jpg",
       description: "Sony, Over-ear, Active Noise Cancellation, Bluetooth 5.0.",
       shortDescription: "Sony, Over-ear, Active Noise Cancellation.",
-      price: "150",
+      price: "10000",
     },
     {
       id: 21,
@@ -29,7 +29,7 @@ export const products = [
       image: "https://m.media-amazon.com/images/I/51ck61uH-GL._AC_UY327_FMwebp_QL65_.jpg",
       description: "Apple, 1.4-inch AMOLED display, Heart rate & SpO2 monitor.",
       shortDescription: "Apple, 1.4-inch AMOLED display.",
-      price: "250",
+      price: "2500",
     },
     {
       id: 5,
@@ -37,7 +37,7 @@ export const products = [
       image: "https://m.media-amazon.com/images/I/91Tbd4wesvL._AC_UY327_FMwebp_QL65_.jpg",
       description: "Nintendo, 4K Ultra HD gaming, 1TB storage, VR compatibility.",
       shortDescription: "Nintendo, 4K Ultra HD gaming, 1TB storage.",
-      price: "400",
+      price: "4000",
     },
     {
       id: 6,
@@ -45,7 +45,7 @@ export const products = [
       image: "https://m.media-amazon.com/images/I/3188xYXJQjL._SX300_SY300_QL70_FMwebp_.jpg",
       description: "Canon, 24.2MP sensor, 4K video recording, 18-55mm lens.",
       shortDescription: "Canon, 24.2MP sensor, 4K video recording.",
-      price: "700",
+      price: "7000",
     },
     {
       id: 7,
@@ -53,7 +53,7 @@ export const products = [
       image: "https://tse1.mm.bing.net/th?id=OIP.c0xMX1PfyE4fPzWVondLwAHaG-&w=446&h=446&c=7",
       description: "JBL, 20W output, IPX7 waterproof, 12-hour battery life.",
       shortDescription: "JBL, 20W output, IPX7 waterproof.",
-      price: "100",
+      price: "1000",
     },
     {
       id: 8,
@@ -61,7 +61,7 @@ export const products = [
       image: "https://tse1.mm.bing.net/th?id=OIP.Zk8F5CI1UKocMt2ZHM2EqAHaHa&w=474&h=474&c=7",
       description: "Samsung, 10.4-inch LCD, 64GB storage, Wi-Fi + LTE.",
       shortDescription: "Samsung, 10.4-inch LCD, 64GB storage.",
-      price: "300",
+      price: "30000",
     },
     {
       id: 117,
@@ -69,7 +69,7 @@ export const products = [
       image: "https://m.media-amazon.com/images/I/51mzvI1WENL._SY741_.jpg",
       description: "High-waist leggings, stretchable fabric, perfect for workouts.",
       shortDescription: "High-waist stretchable leggings.",
-      price: "35",
+      price: "350",
   },
   {
       id: 118,
@@ -77,7 +77,7 @@ export const products = [
       image: "https://tse1.mm.bing.net/th?id=OIP.VpPwQzMezgxSthNaIXaXCAHaJ4&w=474&h=474&c=7",
       description: "Polarized aviators with a lightweight frame, UV protection.",
       shortDescription: "Polarized aviator sunglasses.",
-      price: "50",
+      price: "400",
   },
   {
       id: 119,
@@ -85,7 +85,7 @@ export const products = [
       image: "https://m.media-amazon.com/images/I/61AO5S0R6fL._AC_UL480_FMwebp_QL65_.jpg",
       description: "Statement necklace with cubic zirconia, gold-plated chain.",
       shortDescription: "Gold-plated statement necklace.",
-      price: "65",
+      price: "400",
   },
   {
       id: 120,
@@ -93,7 +93,7 @@ export const products = [
       image: "https://m.media-amazon.com/images/I/61au90efRKL._AC_UY327_FMwebp_QL65_.jpg",
       description: "Durable backpack with multiple compartments, laptop sleeve included.",
       shortDescription: "Durable backpack with laptop sleeve.",
-      price: "70",
+      price: "700",
   },
     {
       id: 9,
@@ -101,31 +101,31 @@ export const products = [
       image: "https://picsum.photos/200/300?random=9",
       description: "Garmin, AMOLED display, Step & sleep tracker, 10-day battery.",
       shortDescription: "Garmin, AMOLED display, Step tracker.",
-      price: "50",
+      price: "5000",
     },
     {
       id: 10,
       name: "Logitech Wireless Keyboard",
-      image: "https://picsum.photos/200/300?random=10",
+      image: "https://m.media-amazon.com/images/I/61MV31r31kL._SL1500_.jpg",
       description: "Logitech, Compact design, Bluetooth & USB, Silent keys.",
       shortDescription: "Logitech, Compact design, Bluetooth & USB.",
-      price: "80",
+      price: "800",
     },
     {
       id: 11,
       name: "HP Pavilion Laptop",
-      image: "https://picsum.photos/200/300?random=11",
+      image: "https://m.media-amazon.com/images/I/71no5vwq-1L._SX679_.jpg",
       description: "HP Pavilion, 14-inch Full HD, Intel i5, 8GB RAM, 256GB SSD.",
       shortDescription: "HP Pavilion, 14-inch Full HD, Intel i5.",
-      price: "750",
+      price: "75000",
     },
     {
       id: 12,
       name: "Apple MacBook Pro",
-      image: "https://picsum.photos/200/300?random=12",
-      description: "Apple, 13-inch Retina display, Intel i7, 16GB RAM, 512GB SSD.",
+      image: "https://m.media-amazon.com/images/I/618d5bS2lUL._SX679_.jpg",
+      description: "Apple 2023 MacBook Pro (16-inch, Apple M3 Max chip with 16‑core CPU and 40‑core GPU, 48GB Unified Memory, 1TB) - Space Black",
       shortDescription: "Apple, 13-inch Retina display, Intel i7.",
-      price: "1800",
+      price: "100000",
     },
     {
       id: 13,
@@ -133,15 +133,15 @@ export const products = [
       image: "https://picsum.photos/200/300?random=13",
       description: "Samsung, 1.5-inch AMOLED display, Fitness & health tracking.",
       shortDescription: "Samsung, 1.5-inch AMOLED display.",
-      price: "220",
+      price: "2200",
     },
     {
       id: 14,
       name: "Asus ROG Gaming Laptop",
-      image: "https://picsum.photos/200/300?random=14",
+      image: "https://m.media-amazon.com/images/I/41FE0fkNHpL._SX300_SY300_QL70_FMwebp_.jpg",
       description: "Asus, 15.6-inch 4K, Intel i9, 32GB RAM, 1TB SSD, Nvidia RTX 3070.",
       shortDescription: "Asus, 15.6-inch 4K, Intel i9.",
-      price: "2500",
+      price: "25000",
     },
     {
       id: 15,
@@ -149,7 +149,7 @@ export const products = [
       image: "https://picsum.photos/200/300?random=15",
       description: "Fitbit, AMOLED display, Built-in GPS, Heart rate monitoring.",
       shortDescription: "Fitbit, AMOLED display, Built-in GPS.",
-      price: "150",
+      price: "1500",
     },
     {
       id: 16,
@@ -157,15 +157,15 @@ export const products = [
       image: "https://picsum.photos/200/300?random=16",
       description: "Bose, Over-ear, Noise-cancelling, Bluetooth 5.0.",
       shortDescription: "Bose, Over-ear, Noise-cancelling.",
-      price: "300",
+      price: "3000",
     },
     {
       id: 17,
       name: "Microsoft Surface Laptop",
-      image: "https://picsum.photos/200/300?random=17",
+      image: "https://m.media-amazon.com/images/I/71bVPbRopXL._SX679_.jpg",
       description: "Microsoft, 13.5-inch PixelSense display, Intel i5, 8GB RAM, 256GB SSD.",
       shortDescription: "Microsoft, 13.5-inch PixelSense display.",
-      price: "1300",
+      price: "130000",
     },
     {
       id: 18,
@@ -178,10 +178,10 @@ export const products = [
     {
       id: 19,
       name: "Dell XPS 13 Laptop",
-      image: "https://picsum.photos/200/300?random=19",
+      image: "https://m.media-amazon.com/images/I/61LOOMpEgxL._SX679_.jpg",
       description: "Dell, 13.3-inch FHD, Intel i7, 16GB RAM, 512GB SSD.",
       shortDescription: "Dell, 13.3-inch FHD, Intel i7.",
-      price: "1500",
+      price: "50000",
     },
     {
       id: 20,
@@ -189,25 +189,25 @@ export const products = [
       image: "https://picsum.photos/200/300?random=20",
       description: "Oculus, 64GB storage, Wireless, VR Experience.",
       shortDescription: "Oculus, 64GB storage, Wireless.",
-      price: "299",
+      price: "2999",
     },
-    // Repeat similar structures for other product entries up to 100 products
+    
     {
       id: 4,
       name: "Samsung Galaxy Buds Pro",
       image: "https://picsum.photos/200/300?random=21",
       description: "Samsung, True wireless earbuds, Active Noise Cancellation.",
       shortDescription: "Samsung, True wireless earbuds.",
-      price: "199",
+      price: "1999",
     },
-    // Add more entries in the same way for a total of 100 products
+    
     {
       id: 101,
       name: "Men's Leather Jacket",
       image: "https://picsum.photos/200/300?random=101",
       description: "Genuine leather jacket, slim fit, available in black and brown.",
       shortDescription: "Genuine leather jacket, slim fit.",
-      price: "150",
+      price: "1500",
   },
   {
       id: 102,
@@ -215,7 +215,7 @@ export const products = [
       image: "https://picsum.photos/200/300?random=102",
       description: "100% silk scarf, hand-painted floral design, 70x70 cm.",
       shortDescription: "100% silk scarf, floral design.",
-      price: "45",
+      price: "450",
   },
   {
       id: 103,
