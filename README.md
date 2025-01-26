@@ -1,5 +1,5 @@
 
-## ✨ Features for ECommerce App
+## ✨ Features
 
 - **⚡ Lightning-fast** development with [Vite](https://vitejs.dev/).
 - **📦 Out-of-the-box support** for modern JavaScript, JSX, and eCommerce components.
@@ -101,17 +101,6 @@ This template integrates the following official Vite plugins:
 └── vite.config.js                  # Vite configuration
 ```
 
-## 🌐 Resources
-
-- **Vite Documentation**: [vitejs.dev](https://vitejs.dev/)
-- **React Documentation**: [react.dev](https://react.dev/)
-- **ESLint Rules**: [eslint.org](https://eslint.org/)
-
----
-
-## 🛡️ License
-
-This project is licensed under the **MIT License**.
 
 ---
 
