@@ -64,24 +64,32 @@ This template integrates the following official Vite plugins:
    - Uses [SWC](https://swc.rs/) for **Fast Refresh** with faster builds.
 
 ---
+Your project structure is clean and minimal. Here’s an updated **"Project Structure"** section for your `README.md` to make it more descriptive:
+
+---
 
 ## 🏗 Project Structure
 
 ```plaintext
-├── public/             # Static assets
-├── src/                # Source code
-│   ├── assets/         # Images and other assets
-│   ├── components/     # Reusable components
-│   ├── pages/          # Application pages
-│   ├── App.jsx         # Main app component
-│   └── main.jsx        # React entry point
-├── .eslintrc.js        # ESLint configuration
-├── vite.config.js      # Vite configuration
-├── package.json        # Dependencies and scripts
-└── README.md           # Project documentation
+├── public/                 # Public assets (e.g., favicon, static images)
+├── src/                    # Source code for the application
+│   ├── assets/             # Static assets used in components (e.g., images, icons)
+│   ├── components/         # Reusable React components
+│   ├── App.css             # Global styling for the application
+│   ├── App.jsx             # Root component of the application
+│   ├── index.css           # Global styles
+│   └── main.jsx            # React entry point to bootstrap the application
+├── .gitignore              # Git ignored files and folders
+├── README.md               # Project documentation
+├── eslint.config.js        # ESLint configuration for code quality
+├── index.html              # HTML template for the application
+├── package.json            # Dependencies and scripts
+├── package-lock.json       # Dependency lock file
+└── vite.config.js          # Vite configuration file
 ```
 
 ---
+
 
 ## 🌟 Why Choose This Template?
 
@@ -110,5 +118,3 @@ This project is licensed under the **MIT License**.
 
 Feel free to contribute or reach out if you have ideas, improvements, or issues! 🎉
 ```
-
-This `README.md` provides a polished structure, introduces the template's features, and offers step-by-step instructions for installation, development, and production. It also enhances readability and serves as a great introduction to the project.
