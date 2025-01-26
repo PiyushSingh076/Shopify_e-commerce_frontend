@@ -73,5 +73,11 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 
 This project is licensed under the MIT License - see the `LICENSE` file for details.
 
+
+## SnapShots
+
 ![image](https://github.com/user-attachments/assets/744bd48f-2791-43dd-bbc3-885052c7f57f)
+
+![image](https://github.com/user-attachments/assets/6a59e97f-8bbc-4dba-ada6-efa256c667a9)
+
 
