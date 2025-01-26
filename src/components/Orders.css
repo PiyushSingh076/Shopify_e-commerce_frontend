@@ -31,6 +31,17 @@
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
   }
+  .noorder {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #777;
+    margin-top: 2rem;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
   
   .order-image img {
     width: 150px;

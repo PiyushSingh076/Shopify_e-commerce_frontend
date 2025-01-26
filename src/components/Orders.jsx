@@ -5,7 +5,7 @@ const Orders = () => {
   const orders = JSON.parse(localStorage.getItem("orders")) || [];
 
   if (orders.length === 0) {
-    return <p>No orders yet.</p>;
+    return <p className="noorder">No orders yet.</p>;
   }
 
   return (
