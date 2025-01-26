@@ -16,7 +16,7 @@ This is a React-based frontend application for a Shopify e-commerce store, desig
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/PiyushSingh076/Shopify_e-commerce_frontend.git](https://github.com/PiyushSingh076/Shopify_e-commerce_frontend.git)
+   git clone https://github.com/PiyushSingh076/Shopify_e-commerce_frontend.git
    ```
 
 2. Navigate to the project directory:
