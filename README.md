@@ -44,23 +44,16 @@ This is a React-based frontend application for a Shopify e-commerce store, desig
 src/
 ├── components/
 │   ├── Advertisement.jsx
-│   ├── Advertisement.css
 │   ├── BuyNow.jsx
-│   ├── BuyNow.css
 │   ├── Cart.jsx
 │   ├── Cart.css
 │   ├── Footer.jsx
-│   ├── Footer.css
 │   ├── Header.jsx
-│   ├── Header.css
 │   ├── Orders.jsx
-│   ├── Orders.css
 │   ├── ProductDetails.jsx
 │   ├── ProductDetails.css
 │   ├── ProductGrid.jsx
-│   ├── ProductGrid.css
 │   ├── Profile.jsx
-│   ├── Profile.css
 │   └── ...
 ├── assets/
 │   └── images/
